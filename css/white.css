@@ -98,6 +98,7 @@ span {
   right: 50%;
 }
 #sort {
+  display: none;
   cursor: pointer;
   z-index: 99999;
 }
