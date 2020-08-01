@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>google sheets</title>
+      <link href="/2020/08/01/google-sheets/"/>
+      <url>/2020/08/01/google-sheets/</url>
+      
+        <content type="html"><![CDATA[<p>快速鍵等同F2, 就是F2</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> sheets </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo commands</title>
+      <link href="/2020/08/01/commands/"/>
+      <url>/2020/08/01/commands/</url>
+      
+        <content type="html"><![CDATA[<p><strong>新增post(draft)</strong></p><pre><code>hexo new draft commands</code></pre><p><strong>新增post(normal)</strong></p><pre><code>hexo new post bookmarks</code></pre><p><strong>啟用draft mode來看draft post</strong></p><pre><code>hexo server --draft</code></pre><p><strong>將draft變成post</strong></p><pre><code>hexo publish commands</code></pre><p>#commands是在draft資料夾內.md的名_</p><p><strong>產生webstie交件</strong></p><pre><code>hexo generate</code></pre><p><strong>部署</strong></p><pre><code>hexo clean &amp;&amp; hexo deploy</code></pre><p><strong>部署流程</strong><br>create post-&gt;generate website pages-&gt;deploy</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

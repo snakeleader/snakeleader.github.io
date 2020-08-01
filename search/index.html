@@ -69,7 +69,7 @@
         
           <a href="/" class="nav-link">
             <li class="menu-li  animate__animated  animate__fadeInUp">
-              家
+              主頁
             </li>
           </a>
         
@@ -93,6 +93,12 @@
              </div>
           </li>
         
+        
+        <a href="/search">
+          <li class="menu-li  animate__animated  animate__fadeInUp">
+            <i class="ri-search-line"></i>
+          </li>
+        </a>
         
           <li class="menu-li animate__animated  animate__fadeInUp" id="mobile-menu">
             <i class="ri-menu-line"></i>
@@ -121,7 +127,7 @@
   
     <a href="/" class="mobile-nav-link">
       <div class="mobile-menu-child animate__animated  animate__fadeInUp">
-        <span>家</span>
+        <span>主頁</span>
       </div>
     </a>
   
@@ -138,6 +144,12 @@
     </a>
   
   
+    <a href="/search">  
+      <div class="mobile-menu-child  animate__animated  animate__fadeInUp">
+        <i class="ri-search-line"></i>
+      </div>
+    </a>
+    
   </div>
 
 
@@ -147,27 +159,35 @@
   <div class="body-inner">
     
 <article class="post-inner">
-  <div class="post-content-outer">
-    <div class="post-content-inner">
-      <div class="post-intro">
-        <div class="post-title animate__animated  animate__fadeInUp">search</div>
-        <div class="meta-intro animate__animated  animate__fadeInUp"><span class="intro-span">2020年8月1日 by white</span></div>
-        
-      </div>
-      <div class="post-content-main animate__animated  animate__fadeInUp">
-        <!-- 目录 -->
-        
-        
-        <!-- 评论 -->
-        
-         
-        
-      </div>
-   </div>
-  </div>
-</article>
+    <div class="post-content-outer">
+      <div class="post-content-inner">
+        <div class="post-content-main animate__animated  animate__fadeInUp">
+            <div class="search">
+                <div class="search-input-outer">
+                    <form>
+                        <input type="text" placeholder="想要搜些甚麼呢..." id="local-search-input" name="q" results="0">
+                        <button type="submit"><i class="ri-search-line"></i></button>
+                    </form>
+                </div>
+                <div id="local-search-result">
+                    
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+  </article>
 
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 
+<script src="/js/search.js"></script>
+
+<script type="text/javascript">      
+    var search_path = "search.xml";
+    var path = "/" + search_path;
+    searchFunc(path, 'local-search-input', 'local-search-result');
+</script>
+  
   </div>
 </div>
 
@@ -189,6 +209,12 @@
         <li class="footer-li">
             <a href="https://www.facebook.com/Lightbricks" target="_blank">
                 <i class="ri-facebook-line"></i>
+            </a>
+        </li>
+        
+        <li class="footer-li">
+            <a href="mailto:eddychung@outlook.com" target="_blank">
+                <i class="ri-mail-line"></i>
             </a>
         </li>
         
