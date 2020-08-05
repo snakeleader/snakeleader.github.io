@@ -169,37 +169,11 @@
       <div class="post-content-main animate__animated  animate__fadeInUp">
         <!-- 目录 -->
         
-        <p>Markdown <a target="_blank" rel="noopener" href="https://www.markdownguide.org/basic-syntax/">markdownguide.org</a><br>Hackmd markdown reference <a target="_blank" rel="noopener" href="https://hackmd.io/YpOORCW0Sli-mSwhOdohKw?both">hackmd.io</a><br>Electronic tutorial <a target="_blank" rel="noopener" href="https://www.electronicshub.org/tutorials/?ref=menu">ELECTRONICS HUB</a></p>
+        <p>Markdown <a target="_blank" rel="noopener" href="https://www.markdownguide.org/basic-syntax/">markdownguide.org</a><br>Hackmd markdown reference <a target="_blank" rel="noopener" href="https://hackmd.io/YpOORCW0Sli-mSwhOdohKw?both">hackmd.io</a><br>Electronic tutorial <a target="_blank" rel="noopener" href="https://www.electronicshub.org/tutorials/?ref=menu">ELECTRONICS HUB</a><br>mermaid <a target="_blank" rel="noopener" href="https://mermaid-js.github.io/mermaid/#/flowchart">mermaid</a></p>
 
         <!-- 评论 -->
         
-          
-            <section id="comments" class="comments" style="margin-top: 150px;">
-              <style>
-                .comments{background:#fff}
-                @media screen and (max-width:900px){.comments{margin:auto;padding:10px;background:#fff}}
-              </style>
-              <div id="vcomment" class="comment"></div>
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-    var notify = 'true' == true ? true : false;
-    var verify = 'false' == true ? true : false;
-    new Valine({
-        av: AV,
-        el: '#vcomment',
-        notify: notify,
-        app_id: "M4Hiw2R9jeSrBKE4HEFAR3Sx-MdYXbMMI",
-        app_key: "pdQAijiqo0MTjUusFCSJQ2kU",
-        placeholder: "留下你來過的痕跡~",
-        avatar:"robohash",
-        lang:"zh-TW",
-    });
-</script>
-
-          </section>
-        
+         
         
       </div>
    </div>
@@ -244,6 +218,7 @@
 
 
 
+
 <script src="/js/white.js"></script>
 
 
@@ -255,6 +230,14 @@
       <script>hljs.initHighlightingOnLoad();</script>
     
 
+
+
+  <script src='https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'></script>
+  <script>
+    if (window.mermaid) {
+      mermaid.initialize({theme: 'forest'});
+    }
+  </script>
 
 </body>
 </html>
