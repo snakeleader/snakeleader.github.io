@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>wisp</title>
+      <link href="/2020/08/13/wisp/"/>
+      <url>/2020/08/13/wisp/</url>
+      
+        <content type="html"><![CDATA[<p>什麼是WISP？<br>WISP (Wireless Internet Service Provider)是一種無線路由器設置的模式。這種模式讓路由器變成另一個網絡供應商。</p><blockquote><p>WISP or WISP Client is a mode when a <mark>Wireless port of your Wi-Fi router acts as a WAN port</mark>. If the WISP client mode is available on your wireless router you can configure it to connect to a remote Wi-Fi hotspot and share its Internet connection between the client devices connected via Wi-Fi and Ethernet.</p></blockquote><p><a href="https://wifi-settings.com/wireless-routers/wisp-mode/">wifi-settings.com</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 電腦 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> WiFi </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Visual Studio Code 快捷鍵 (Mac)</title>
       <link href="/2020/08/09/visualstudiocodeshortcutkey/"/>
       <url>/2020/08/09/visualstudiocodeshortcutkey/</url>
