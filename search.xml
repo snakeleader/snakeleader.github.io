@@ -8,7 +8,7 @@
       <link href="/2020/09/14/pyTranscriber/"/>
       <url>/2020/09/14/pyTranscriber/</url>
       
-        <content type="html"><![CDATA[<p>使用pyTranscriber語音轉文字(中文)<br>下載<a href="https://github.com/raryelcostasouza/pyTranscriber/releases/tag/v1.3-stable">pyTranscriber</a><br>我所使用的是MacOS<br><img src="/images/pyTranscriber_download.png" alt=""><br>將已解壓的資料夾放在指定位置，例如桌面。<br>1.使用Terminal轉到該位置<br>2.開啓程式<br><img src="/images/pyLaunch.png" alt=""><br>使用<br><img src="/images/pyUse.png" alt=""><br>結果<br><img src="/images/pyResult.png" alt=""><br>當然還要修改，但這已經省了很多時間﹗</p>]]></content>
+        <content type="html"><![CDATA[<p>使用pyTranscriber語音轉文字(中文)<br>下載<a href="https://github.com/raryelcostasouza/pyTranscriber/releases/tag/v1.3-stable">pyTranscriber</a><br>我所使用的是MacOS<br><img src="/images/pyTranscriber_download.png" alt=""><br>將已解壓的資料夾放在指定位置，例如桌面。<br>1.使用Terminal轉到該位置<br>2.開啓程式<br><img src="/images/pyLaunch.png" alt=""><br>使用<br>1.選擇檔案<br>2.選擇要轉為的語言<br>3.轉換<br>4.選擇產生案<br><img src="/images/pyUse.png" alt=""><br>結果<br><img src="/images/pyResult.png" alt=""><br>當然還要修改，但這已經省了很多時間﹗</p>]]></content>
       
       
       <categories>
